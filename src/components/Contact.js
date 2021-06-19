@@ -7,18 +7,19 @@ const Contact = () => {
     <div className="container">
        <div className="row bg-dark text-center">
           <div className="col-md-12">
-            <form action="https://formspree.io/f/mazhar.s1197@gmail.com" method="post">
+            <form  action="https://formspree.io/f/mayajvwb"
+  method="POST">
                   <div className="form-group p-3">
                     <label for="name">Name</label>
                     <input  type="text" id="name" name="Name" className="form-control" placeholder="Enter Your Username"  autocomplte="off"/>
                   </div>
                   <div className="form-group p-3">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="Email" className="form-control" placeholder="Enter Your Email"  autocomplte="off"/>
+                    <input type="email"name="_replyto" id="email" name="email" className="form-control" placeholder="Enter Your Email"  autocomplte="off"/>
                   </div>
                   <div className="form-group p-3">
-                    <label for="email">Phone Number</label>
-                    <input type="text" id="email" name="Email" className="form-control" placeholder="Enter Your Phone Number"  autocomplte="off"/>
+                    <label for="Phone">Phone Number</label>
+                    <input type="text" id="Phone Number" name="Phone" className="form-control" placeholder="Enter Your Phone Number"  autocomplte="off"/>
                   </div>
                   <div className="form-group p-3">
                     <label for="message">Message</label>
