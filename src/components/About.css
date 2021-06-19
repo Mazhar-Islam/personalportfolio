@@ -1,0 +1,10 @@
+.name{
+    color:darkgoldenrod;
+}
+.logo-img{
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: -19px;
+    border-radius: 200px;
+}
